@@ -1,4 +1,5 @@
 import React from 'react';
+import HeroImage from '../assets/fire-alarm.jpg';
 
 const Hero = () => {
   return (
