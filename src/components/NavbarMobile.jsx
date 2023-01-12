@@ -86,7 +86,7 @@ const NavbarMobile = ({ navbarScrolled }) => {
           return (
             <motion.li
               key={link.id}
-              className="mb-8 cursor-pointer"
+              className="mb-8 cursor-pointer text-xl"
               variants={liVariants}
               initial="hidden"
             >
