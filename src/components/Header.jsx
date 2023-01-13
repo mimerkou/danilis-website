@@ -18,9 +18,7 @@ const Header = () => {
   return (
     <header
       className={`${
-        navbarScrolled
-          ? 'bg-white h-20 shadow-md'
-          : 'h-24 bg-transparent shadow-none'
+        navbarScrolled ? 'bg-white h-20 shadow-md' : 'h-24 bg-black shadow-none'
       } flex items-center fixed top-0 w-full text-white px-8 z-10 transition-all duration-500`}
     >
       <div className="container mx-auto h-full flex items-center justify-between max-w-[1240px]">

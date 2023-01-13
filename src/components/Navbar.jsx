@@ -12,7 +12,7 @@ const Navbar = ({ navbarScrolled }) => {
               key={link.id}
               className={`${
                 navbarScrolled ? 'text-gray-600' : 'text-white'
-              } tracking-wide hover:text-red-600 cursor-pointer`}
+              } hover:text-red-600 tracking-wide cursor-pointer`}
             >
               <Link
                 to={link.path}
