@@ -1,6 +1,7 @@
 import React from 'react';
 // import HeroImage from '../assets/hero.jpg';
 import HeroImage from '../assets/fire-alarm.jpg';
+import Button from './UI/Button';
 
 const Hero = () => {
   // return (
@@ -37,16 +38,21 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="h-[calc(100vh-80px)] mt-[80px] flex items-center bg-fixed bg-black bg-cover md:bg-center md:bg-no-repeat md:py-0 overflow-hidden"
+      className="h-[calc(100vh-80px)] mt-[80px] flex items-center justify-center bg-fixed bg-black bg-cover md:bg-center md:bg-no-repeat md:py-0 overflow-hidden"
     >
       <div className="max-w-[1240px] w-[80%] mx-auto grid grid-cols-1 text-center lg:text-left lg:grid-cols-2 gap-2">
-        <div className="text-white">
-          <h1 className="leading-tight tracking-wide mb-4 mt-8 text-3xl lg:text-4xl">
+        <div className="text-white h-auto">
+          <h1 className="leading-tight tracking-wide mb-4 mt-2 text-3xl lg:text-4xl">
             Μεσογειακή <br /> Πυροπροστασία
           </h1>
           <h2 className="text-[1.2rem] text-gray-300 leading-tight tracking-wide mb-8 text-xl lg:text-2xl">
             Λύσεις πυρασφάλειας <br /> στα Μεσόγεια και την Αττική.
           </h2>
+          <div className="mb-6">
+            <Button path="about" className="mr-2">
+              Ποιοι είμαστε
+            </Button>
+          </div>
         </div>
 
         <div className="overflow-hidden">
