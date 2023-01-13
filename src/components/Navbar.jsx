@@ -5,14 +5,14 @@ import { links } from '../data';
 const Navbar = ({ navbarScrolled }) => {
   return (
     <nav>
-      <ul className="flex space-x-8 uppercase">
+      <ul className="flex space-x-6 uppercase">
         {links.map((link) => {
           return (
             <li
               key={link.id}
               className={`${
                 navbarScrolled ? 'text-gray-600' : 'text-white'
-              } hover:text-red-600 tracking-wide cursor-pointer`}
+              } hover:text-[#a4190f] tracking-wide cursor-pointer`}
             >
               <Link
                 to={link.path}

@@ -12,7 +12,7 @@ export const links = [
   {
     id: 3,
     label: 'ΥΠΗΡΕΣΙΕΣ',
-    path: 'products',
+    path: 'services',
   },
   {
     id: 4,

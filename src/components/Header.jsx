@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import NavbarMobile from './NavbarMobile';
-import { FaFireExtinguisher } from 'react-icons/fa';
+import { GiFlamer } from 'react-icons/gi';
 import { Link } from 'react-scroll';
 
 const Header = () => {
@@ -33,11 +33,11 @@ const Header = () => {
             offset={-80}
             duration={750}
           >
-            <FaFireExtinguisher
+            <GiFlamer
               size={35}
               className={`${
                 navbarScrolled ? 'text-gray-600' : 'text-white'
-              } mr-3`}
+              } mr-2`}
             />
             <h1
               className={`${

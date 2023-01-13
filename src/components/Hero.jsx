@@ -42,14 +42,14 @@ const Hero = () => {
     >
       <div className="max-w-[1240px] w-[80%] mx-auto grid grid-cols-1 text-center lg:text-left lg:grid-cols-2 gap-2">
         <div className="text-white h-auto">
-          <h1 className="leading-tight tracking-wide mb-4 mt-2 text-3xl lg:text-4xl">
+          <h1 className="leading-tight tracking-wide font-bold mb-4 mt-2 text-3xl lg:text-4xl">
             Μεσογειακή <br /> Πυροπροστασία
           </h1>
-          <h2 className="text-[1.2rem] text-gray-300 leading-tight tracking-wide mb-8 text-xl lg:text-2xl">
+          <h2 className="text-[1.2rem] font-thin text-gray-300 leading-tight tracking-wide mb-8 text-xl lg:text-2xl">
             Λύσεις πυρασφάλειας <br /> στα Μεσόγεια και την Αττική.
           </h2>
           <div className="mb-6">
-            <Button path="about" className="mr-2">
+            <Button path="about" darkBg={true} className="mr-2">
               Ποιοι είμαστε
             </Button>
           </div>

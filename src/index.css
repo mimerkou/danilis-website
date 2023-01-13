@@ -10,7 +10,7 @@
   }
 
   .active {
-    @apply text-red-600;
+    color: #a4190f;
   }
 
   .active-mobile {
