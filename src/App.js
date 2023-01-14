@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import Certifications from './components/Certifications';
+import Customers from './components/Customers';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <About />
       <Services />
       <Certifications />
+      <Customers />
       <div id="contact" style={{ height: '2000px' }}>
         Contact
       </div>
