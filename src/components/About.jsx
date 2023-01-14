@@ -5,7 +5,7 @@ import Button from './UI/Button';
 const About = () => {
   return (
     <section id="about" className="min-h-[calc(100vh-80px)] overflow-hidden">
-      <div className="container mx-auto max-w-[1240px] py-16 lg:pt-24">
+      <div className="container mx-auto max-w-[1240px] py-16 lg:pt-24 mb-12">
         <div className="flex flex-col lg:flex-row gap-8 mx-8">
           <div className="order-2 lg:order-1 flex items-center justify-center lg:w-2/4">
             <img
@@ -17,9 +17,9 @@ const About = () => {
 
           <div className="order-1 flex flex-col items-center lg:items-start lg:w-2/4">
             <div className="flex flex-col">
-              <h2 className="text-[#a4190f] text-2xl font-medium lg:font-extrabold text-center mb-4 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem]">
+              <h3 className="text-[#a4190f] text-2xl font-medium lg:font-extrabold text-center mb-4">
                 Η Εταιρεία μας
-              </h2>
+              </h3>
               <div className="w-[100px] h-[1px] mx-auto bg-[#a4190f] mb-12"></div>
               <p className="mb-4 text-gray-600 leading-7 text-center lg:text-left">
                 Η Μεσογειακή Πυροπροστασία ιδρύθηκε το 1983 από τον κ. Μιχάλη

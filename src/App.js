@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import Services from './components/Services';
 
 const App = () => {
   return (
@@ -8,8 +9,9 @@ const App = () => {
       <Header />
       <Hero />
       <About />
-      <div id="services" style={{ height: '2000px' }}>
-        Products
+      <Services />
+      <div id="certifications" style={{ height: '2000px' }}>
+        Certifications
       </div>
     </div>
   );
