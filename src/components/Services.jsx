@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiOutlineCheck } from 'react-icons/ai';
+import ImageDivider from './ImageDivider';
 import Button from './UI/Button';
 
 const Services = () => {
@@ -29,7 +30,7 @@ const Services = () => {
             Πυροσβεστήρες και Εξαρτήματα
           </h4>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
-            <div>
+            <div className="p-4 hover:bg-[#0d0d0d] transition-all duration-300">
               <h5 className="text-lg underline mb-2">Φορητοί Πυροσβεστήρες</h5>
               <ul>
                 <li className="flex items-stacenterrt justify-center mb-1">
@@ -51,7 +52,7 @@ const Services = () => {
               </ul>
             </div>
 
-            <div>
+            <div className="p-4 hover:bg-[#0d0d0d] transition-all duration-300">
               <h5 className="text-lg underline mb-2">
                 Πυροσβεστήρες Τοπικής Εφαρμογής
               </h5>
@@ -71,7 +72,7 @@ const Services = () => {
               </ul>
             </div>
 
-            <div>
+            <div className="p-4 hover:bg-[#0d0d0d] transition-all duration-300">
               <h5 className="text-lg underline mb-2">
                 Τροχήλατοι Πυροσβεστήρες
               </h5>
@@ -129,6 +130,8 @@ const Services = () => {
           </Button>
         </div>
       </div>
+
+      <ImageDivider />
     </section>
   );
 };
