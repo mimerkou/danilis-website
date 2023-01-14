@@ -7,7 +7,7 @@ const ImageDivider = () => {
       <img
         src={Image}
         alt="Fire Extinguishers"
-        className="w-full h-[50vh] flex self-stretch"
+        className="w-full h-[35vh] lg:h-[50vh] flex self-stretch"
       />
     </div>
   );
