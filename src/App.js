@@ -5,10 +5,11 @@ import Services from './components/Services';
 import Certifications from './components/Certifications';
 import Customers from './components/Customers';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <Hero />
       <About />
@@ -16,7 +17,8 @@ const App = () => {
       <Certifications />
       <Customers />
       <Contact />
-    </div>
+      <Footer />
+    </>
   );
 };
 
