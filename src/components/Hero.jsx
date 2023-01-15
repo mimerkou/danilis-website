@@ -15,6 +15,7 @@ const Hero = () => {
             className="leading-tight tracking-wide font-bold mb-4 mt-2 text-3xl lg:text-4xl"
             data-aos="zoom-in-right"
             data-aos-duration="1000"
+            data-aos-once="true"
           >
             Μεσογειακή <br /> Πυροπροστασία
           </h1>
@@ -23,6 +24,7 @@ const Hero = () => {
             data-aos="zoom-in-right"
             data-aos-duration="1000"
             data-aos-delay="300"
+            data-aos-once="true"
           >
             Λύσεις πυρασφάλειας <br /> στα Μεσόγεια και την Αττική.
           </h2>
@@ -31,6 +33,7 @@ const Hero = () => {
             data-aos="zoom-in-right"
             data-aos-duration="1000"
             data-aos-delay="600"
+            data-aos-once="true"
           >
             <Button path="about" darkBg={true} className="mr-2">
               Ποιοι είμαστε
@@ -43,6 +46,7 @@ const Hero = () => {
           data-aos="zoom-in-left"
           data-aos-duration="1000"
           data-aos-delay="900"
+          data-aos-once="true"
         >
           <img
             src={HeroImage}

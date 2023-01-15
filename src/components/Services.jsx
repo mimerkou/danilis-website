@@ -16,6 +16,7 @@ const Services = () => {
             className="text-white text-2xl font-medium lg:font-extrabold text-center mb-4"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-once="true"
           >
             Υπηρεσίες και Προϊόντα
           </h3>
@@ -24,12 +25,14 @@ const Services = () => {
             className="w-[100px] h-[1px] mx-auto bg-white mb-12"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-once="true"
           ></div>
 
           <p
             className="mb-12 text-white leading-7 text-center"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-once="true"
           >
             Εδώ θα βρείτε αναλυτικά όλα τα προϊόντα της εταιρείας μας καθώς και
             τις παρεχόμενες υπηρεσίες. Οι υπηρεσίες μας είναι εμπορία,
@@ -44,6 +47,7 @@ const Services = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="250"
+            data-aos-once="true"
           >
             Πυροσβεστήρες και Εξαρτήματα
           </h4>
@@ -53,6 +57,7 @@ const Services = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="500"
+              data-aos-once="true"
             >
               <h5 className="text-lg underline mb-2">Φορητοί Πυροσβεστήρες</h5>
               <ul>
@@ -80,6 +85,7 @@ const Services = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="750"
+              data-aos-once="true"
             >
               <h5 className="text-lg underline mb-2">
                 Πυροσβεστήρες Τοπικής Εφαρμογής
@@ -105,6 +111,7 @@ const Services = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="1000"
+              data-aos-once="true"
             >
               <h5 className="text-lg underline mb-2">
                 Τροχήλατοι Πυροσβεστήρες
@@ -129,6 +136,7 @@ const Services = () => {
             className="mb-16 leading-7"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-once="true"
           >
             Η Μεσογειακή Πυροπροστασία διαθέτει όλα τα παραπάνω προϊόντα, καθώς
             και πυροσβεστήρες οροφής και ειδικούς τύπους πυροσβεστήρων.
@@ -138,6 +146,7 @@ const Services = () => {
             className="mb-4 text-xl text-[#a4190f]"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-once="true"
           >
             Sprinkler - Μόνιμα Συστήματα
           </h4>
@@ -146,6 +155,7 @@ const Services = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="250"
+            data-aos-once="true"
           >
             Τα Sprinkler σε προκαθορισμένη θερμοκρασία αφήνουν την αμπούλα τους
             να λιώσει ή να σπάσει, επιτρέποντας έτσι στο κατασβεστικό υγρό να
@@ -160,6 +170,7 @@ const Services = () => {
             className="mb-4 text-xl text-[#a4190f]"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-once="true"
           >
             Πυροσβεστικές Φωλιές - Εξοπλισμός Ασφαλείας
           </h4>
@@ -168,6 +179,7 @@ const Services = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="250"
+            data-aos-once="true"
           >
             Η εταιρεία μας διαθέτει μια πληθώρα από πυροσβεστικές φωλιές
             διαφόρων τύπων, τόσο κενές όσο και πλήρεις. Επίσης, διαθέτουμε μια
@@ -179,13 +191,14 @@ const Services = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="250"
+            data-aos-once="true"
           >
             Η μελέτη και η εγκατάσταση οποιουδήποτε συστήματος πυρασφάλειας
             γίνεται από την Μεσογειακή Πυροπροστασία. Εσείς μπορείτε απλά να
             επικοινωνήσετε μαζί μας ή να περάσετε από τις εγκαταστάσεις μας για
             να βρούμε μαζί την λύση που σας ταιριάζει.
           </p>
-          <div data-aos="fade-up" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
             <Button path="contact" darkBg={true}>
               Επικοινωνία
             </Button>

@@ -16,6 +16,7 @@ const Customers = () => {
             className="text-white text-2xl font-medium lg:font-extrabold text-center mb-4"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-once="true"
           >
             Οι Πελάτες μας
           </h3>
@@ -24,6 +25,7 @@ const Customers = () => {
             className="w-[100px] h-[1px] mx-auto bg-white mb-12"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-once="true"
           ></div>
 
           <p
@@ -31,6 +33,7 @@ const Customers = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="200"
+            data-aos-once="true"
           >
             Για περισσότερα από 40 χρόνια η Μεσογειακή Πυροπροστασία χτίζει
             σχέσεις εμπιστοσύνης και σεβασμού με τους πελάτες της, οι οποίοι
@@ -43,13 +46,19 @@ const Customers = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="200"
+            data-aos-once="true"
           >
             Παρακάτω μπορείτε να δείτε κάποια σχόλια ικανοποιημένων πελατών μας,
             καθώς και ενδεικτικό δείγμα του πελατολογίου μας.
           </p>
         </div>
 
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          data-aos-once="true"
+        >
           <Slider />
         </div>
 
@@ -57,7 +66,7 @@ const Customers = () => {
           className="mt-12 mb-4 text-center text-lg underline"
           data-aos="zoom-in"
           data-aos-duration="1000"
-          // data-aos-delay="200"
+          data-aos-once="true"
         >
           Ενδεικτικό Πελατολόγιο
         </h5>
@@ -67,6 +76,7 @@ const Customers = () => {
             data-aos="zoom-in"
             data-aos-duration="1000"
             data-aos-delay="250"
+            data-aos-once="true"
           >
             {brandsListOne.map((item) => (
               <ul key={item.id}>
@@ -82,6 +92,7 @@ const Customers = () => {
             data-aos="zoom-in"
             data-aos-duration="1000"
             data-aos-delay="500"
+            data-aos-once="true"
           >
             {brandsListTwo.map((item) => (
               <ul key={item.id}>

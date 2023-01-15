@@ -12,6 +12,7 @@ const About = () => {
             className="order-2 lg:order-1 flex items-center justify-center lg:w-2/4"
             data-aos="zoom-in-right"
             data-aos-duration="1000"
+            data-aos-once="true"
           >
             <img
               src={AboutImage}
@@ -24,6 +25,7 @@ const About = () => {
             className="order-1 flex flex-col items-center lg:items-start lg:w-2/4"
             data-aos="zoom-in-left"
             data-aos-duration="1000"
+            data-aos-once="true"
           >
             <div className="flex flex-col">
               <h3 className="text-[#a4190f] text-2xl font-medium lg:font-extrabold text-center mb-4">

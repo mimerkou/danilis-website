@@ -10,6 +10,7 @@ const Footer = () => {
           className="text-center"
           data-aos="zoom-in"
           data-aos-duration="1000"
+          data-aos-once="true"
         >
           <h1 className="text-lg uppercase">Μεσογειακη Πυροπροστασια</h1>
           <h2 className="text-gray-300 mb-2 font-thin">
@@ -25,6 +26,7 @@ const Footer = () => {
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="200"
+          data-aos-once="true"
         >
           <h5 className="text-lg uppercase">Ωρες Λειτουργιας</h5>
           <p>Δευ-Παρ: 08.00 - 17.00</p>
@@ -36,6 +38,7 @@ const Footer = () => {
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="400"
+          data-aos-once="true"
         >
           <h5 className="text-lg uppercase">Χρησιμοι Συνδεσμοι</h5>
           <p>
@@ -61,6 +64,7 @@ const Footer = () => {
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="600"
+          data-aos-once="true"
         >
           <Link to="home" smooth={true} spy={true} offset={-80}>
             TOP

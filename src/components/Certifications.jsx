@@ -10,6 +10,7 @@ const Certifications = () => {
             className="text-[#a4190f] text-2xl font-medium lg:font-extrabold text-center mb-4"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-once="true"
           >
             Πιστοποιήσεις
           </h3>
@@ -18,6 +19,7 @@ const Certifications = () => {
             className="w-[100px] h-[1px] mx-auto bg-[#a4190f] mb-12"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-once="true"
           ></div>
 
           <p
@@ -25,6 +27,7 @@ const Certifications = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="200"
+            data-aos-once="true"
           >
             Με απόφαση του Υπουργείου Βιομηχανίας το 1998, στην εταιρεία μας
             χορηγείται Άδεια Εγκατάστασης και Λειτουργίας Εργαστηρίου αναγόμωσης
@@ -39,6 +42,7 @@ const Certifications = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="400"
+            data-aos-once="true"
           >
             Η ΕΒΕΤΑΜ πιστοποιεί την εταιρεία και από το 2001 λειτουργεί ως
             πρότυπο κέντρο επανελέγχου χαλύβδινων φιαλών με ραφή. Οι
@@ -52,6 +56,7 @@ const Certifications = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="600"
+            data-aos-once="true"
           >
             Η ΕΒΕΤΑΜ χορηγεί στον κ. Μιχάλη Δανίλη το πιστοποιητικό επάρκειας
             αρμοδίου ατόμου και πιστοποιεί την Μεσογειακή Πυροπροστασία για την
@@ -67,6 +72,7 @@ const Certifications = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="800"
+            data-aos-once="true"
           >
             Η πιστοποίηση του 2005 κατά ISO 9001:2000 είναι το επιστέγασμα των
             προσπαθειών μας για συνεχή πρόοδο, ανάπτυξη και παροχή ποιοτικών
