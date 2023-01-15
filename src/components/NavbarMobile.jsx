@@ -82,28 +82,30 @@ const NavbarMobile = ({ navbarScrolled }) => {
           <CgClose className="w-10 h-10" />
         </div>
 
-        {links.map((link) => {
-          return (
-            <motion.li
-              key={link.id}
-              className="mb-8 cursor-pointer text-xl"
-              variants={liVariants}
-              initial="hidden"
-            >
-              <Link
-                to={link.path}
-                activeClass="active-mobile"
-                spy={true}
-                smooth={true}
-                duration={750}
-                offset={-80}
-                onClick={() => setIsOpen(false)}
+        <div className="relative flex flex-col items-center justify-center">
+          {links.map((link) => {
+            return (
+              <motion.li
+                key={link.id}
+                className="mb-8 cursor-pointer text-xl"
+                variants={liVariants}
+                initial="hidden"
               >
-                {link.label}
-              </Link>
-            </motion.li>
-          );
-        })}
+                <Link
+                  to={link.path}
+                  activeClass="active-mobile"
+                  spy={true}
+                  smooth={true}
+                  duration={750}
+                  offset={-80}
+                  onClick={() => setIsOpen(false)}
+                >
+                  {link.label}
+                </Link>
+              </motion.li>
+            );
+          })}
+        </div>
       </motion.ul>
     </nav>
   );

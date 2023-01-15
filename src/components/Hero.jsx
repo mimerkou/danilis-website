@@ -1,5 +1,4 @@
 import React from 'react';
-// import HeroImage from '../assets/hero.jpg';
 import HeroImage from '../assets/fire-alarm.jpg';
 import Button from './UI/Button';
 import 'aos/dist/aos.css';
@@ -11,7 +10,7 @@ const Hero = () => {
       className="h-[calc(100vh-80px)] mt-[80px] flex items-center justify-center bg-fixed bg-black bg-cover md:bg-center md:bg-no-repeat md:py-0 overflow-hidden"
     >
       <div className="max-w-[1240px] w-[80%] mx-auto grid grid-cols-1 text-center lg:text-left lg:grid-cols-2 gap-2">
-        <div className="text-white h-auto flex flex-col justify-center items-start">
+        <div className="text-white h-auto flex flex-col justify-center items-center lg:items-start">
           <h1
             className="leading-tight tracking-wide font-bold mb-4 mt-2 text-3xl lg:text-4xl"
             data-aos="zoom-in-right"
