@@ -4,6 +4,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Certifications from './components/Certifications';
 import Customers from './components/Customers';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -14,9 +15,7 @@ const App = () => {
       <Services />
       <Certifications />
       <Customers />
-      <div id="contact" style={{ height: '2000px' }}>
-        Contact
-      </div>
+      <Contact />
     </div>
   );
 };
