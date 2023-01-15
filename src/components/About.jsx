@@ -1,13 +1,18 @@
 import React from 'react';
 import AboutImage from '../assets/pyrosvestires-resized.jpg';
 import Button from './UI/Button';
+import 'aos/dist/aos.css';
 
 const About = () => {
   return (
     <section id="about" className="min-h-[calc(100vh-80px)] overflow-hidden">
       <div className="container mx-auto max-w-[1240px] py-16 lg:pt-24 mb-12">
         <div className="flex flex-col lg:flex-row gap-8 mx-8">
-          <div className="order-2 lg:order-1 flex items-center justify-center lg:w-2/4">
+          <div
+            className="order-2 lg:order-1 flex items-center justify-center lg:w-2/4"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
             <img
               src={AboutImage}
               alt="About us"
@@ -15,7 +20,11 @@ const About = () => {
             />
           </div>
 
-          <div className="order-1 flex flex-col items-center lg:items-start lg:w-2/4">
+          <div
+            className="order-1 flex flex-col items-center lg:items-start lg:w-2/4"
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+          >
             <div className="flex flex-col">
               <h3 className="text-[#a4190f] text-2xl font-medium lg:font-extrabold text-center mb-4">
                 Η Εταιρεία μας

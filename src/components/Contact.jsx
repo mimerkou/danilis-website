@@ -29,14 +29,14 @@ const Contact = () => {
                 πυρασφάλειας που σας ενδιαφέρουν ή να επικοινωνήσετε μαζί μας
                 στα παρακάτω τηλέφωνα ή μέσω email στο sales@danilis.gr
               </p>
-              <div className="flex items-center justify-start text-gray-600 mb-4">
+              <div className="flex items-center justify-center text-gray-600 mb-4">
                 <FiPhone size={30} className="mr-4" /> Σταθερό/fax: 210 66 24
                 687
               </div>
-              <div className="flex items-center justify-start text-gray-600 mb-4">
+              <div className="flex items-center justify-center text-gray-600 mb-4">
                 <FiSmartphone size={30} className="mr-4" /> Κινητό: 6944 357 297
               </div>
-              <div className="flex items-center justify-start text-gray-600 mb-4">
+              <div className="flex items-center justify-center text-gray-600 mb-4">
                 <RxEnvelopeClosed size={30} className="mr-4" />
                 <a
                   href="mailto:sales@danilis.gr"
