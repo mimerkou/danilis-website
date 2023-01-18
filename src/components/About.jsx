@@ -5,7 +5,10 @@ import 'aos/dist/aos.css';
 
 const About = () => {
   return (
-    <section id="about" className="min-h-[calc(100vh-80px)] overflow-hidden">
+    <section
+      id="about"
+      className="min-h-[calc(100vh-80px)] overflow-hidden flex justify-center items-center"
+    >
       <div className="container mx-auto max-w-[1240px] py-16 lg:pt-24 mb-12">
         <div className="flex flex-col lg:flex-row gap-8 mx-8">
           <div

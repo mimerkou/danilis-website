@@ -3,7 +3,10 @@ import 'aos/dist/aos.css';
 
 const Certifications = () => {
   return (
-    <section id="certifications" className="min-h-[calc(100vh-80px)] bg-white">
+    <section
+      id="certifications"
+      className="min-h-[calc(100vh-80px)] bg-white flex justify-center items-center"
+    >
       <div className="container mx-auto max-w-[1240px] py-16 lg:pt-24">
         <div className="flex flex-col items-center text-center mx-8">
           <h3
