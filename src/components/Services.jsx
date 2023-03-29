@@ -42,8 +42,9 @@ const Services = () => {
             άρτια λειτουργία τους.
           </p>
 
+          {/* text-[#a4190f] */}
           <h4
-            className="mb-4 text-xl text-[#a4190f]"
+            className="mb-4 text-xl text-gray-300"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="250"
@@ -143,7 +144,7 @@ const Services = () => {
           </p>
 
           <h4
-            className="mb-4 text-xl text-[#a4190f]"
+            className="mb-4 text-xl text-gray-300"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="true"
@@ -167,7 +168,7 @@ const Services = () => {
           </p>
 
           <h4
-            className="mb-4 text-xl text-[#a4190f]"
+            className="mb-4 text-xl text-gray-300"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="true"
